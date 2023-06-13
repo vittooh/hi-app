@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${GITHUB_SHA}
+          tags: ${{ github.sha }}
