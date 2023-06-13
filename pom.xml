@@ -10,11 +10,12 @@
 	</parent>
 	<groupId>br.com.digitalbricklayer</groupId>
 	<artifactId>hi-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${tag-release}</version>
 	<name>hi-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<tag-release>1.0.0</tag-release>
 	</properties>
 	<dependencies>
 		<dependency>
