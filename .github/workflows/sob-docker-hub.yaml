@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: hi-app:${{ github.sha }}
+          tags: vittooh/hi-app:${{ github.sha }}
